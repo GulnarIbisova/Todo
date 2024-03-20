@@ -1,13 +1,56 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
+#todo {
+  padding: 80px;
 }
-
-a:hover {
-  color: black;
+#todo .box {
+  text-align: center;
+  padding: 15px;
+  margin-top: 45px;
+  width: 310px;
+  height: 270px;
+  border-radius: 25px;
+  background-color: #9c6644;
 }
-/*# sourceMappingURL=style.css.map */
+#todo .box h1 {
+  margin-top: 15px;
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+#todo .box .btn {
+  border-radius: 40px;
+  padding: 7px 30px;
+  margin-top: 28px;
+  background-color: white;
+}
+#todo .box .btn h5 {
+  font-size: 20px;
+}
+#todo .box .btn h5:hover {
+  cursor: pointer;
+}
+#todo .box input {
+  margin-top: 27px;
+  border-radius: 25px;
+  padding: 18px 20px;
+  font-size: 22px;
+  white-space: nowrap;
+}
+#todo .minibox {
+  width: 250px;
+  text-align: center;
+  margin-top: 68px;
+  background-color: white;
+}
+#todo .minibox h3 {
+  font-size: 28px;
+  border: 2px solid #5d6d7e;
+  border-radius: 50px;
+  padding: 11px;
+  margin: 0 14px 12px;
+  word-wrap: break-word;
+}/*# sourceMappingURL=style.css.map */
